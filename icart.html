@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zilicias</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- - WebSiticon -->
+    <link rel="shortcut icon" href="./img/icons/IMG-20231024-WA0003_093254.jpg"; type="image/jpg+xml">
+
+    <!--css link-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleslider.css">
+    <link rel="stylesheet" href="stylemodal.css">
+</head>
+<body>
+    
+    <!--Barra de Navegação -->
+    <header>
+        <nav>
+            <img class="iconav" src="./img/icons/IMG-20231024-WA0003_093254.jpg" alt="">
+            <a class="logo" href="./img/icons/Menu_48px.png"><b>Zilicias</b></a>
+            <div class="mobile-menu">
+                <div class="line1" style="background-color: #23232e;"></div>
+                <div class="line2" style="background-color: #23232e;"></div>
+                <div class="line3" style="background-color: #23232e;"></div>
+            </div>
+            <ul class="nav-list">
+                <a href="./index.html"><li><img src="./img/icons/system-solid-41-home.gif" alt=""></li></a>
+
+                <div class="container-campo-pesquisa">
+                    <input type="text" placeholder="Pesquisar...">
+                    <div>
+                        <img src="./img/icons/system-solid-42-search.gif">
+                    </div>
+                </div>
+                <li><img src="./img/icons/system-solid-46-notification-bell.gif" alt=""></li>
+                <li><img src="./img/icons/system-solid-48-favorite-heart.gif" alt=""></li>
+                <li><img src="./img/icons/wired-outline-146-trolley.gif" alt=""><a href="./icart.html"></a></li>
+                <li><img src="./img/icons/system-solid-58-call-phone.gif" alt=""></li>
+                <li><div class="cell">
+                    <p><b>+244 933 222 000</b></p>
+                    <p style="font-size: 10px;">Cell Center</p>
+                </div></li>
+                <li><button class="btn-2">Login</button></li>
+            </ul>
+            
+        </nav>
+
+        <div class="topo-2">
+            <div class="links-nav">
+                <ul>
+                    <li><a href="./produtos.html"><b style="font-size: 16px;">Produtos</b></a></li>
+                    <li><a href="./servicos.html"><b style="font-size: 16px;">Serviços</b></a></li>
+                    <li><a href="./atividades.html"><b style="font-size: 16px;">Atividades</b></a></li>
+                    <li><a href=""><b style="font-size: 16px;">Sobre Nós</b></a></li>
+               
+                </ul>
+            
+            </div>
+        </div>
+
+
+        
+    </header>
+    <!-- Fim Barra de Navegação -->
+
+
+    <main> 
+
+
+    <!-- btnefect  -->
+    <button class="efect">
+                    
+        <img src="./img/imgzilicias/OIG.jpeg" alt="">
+    
+    </button>
+    <!-- btnefect  -->
+
+    <!-- Chat  -->
+
+    <!-- btnChat  -->
+    <button class="mensagem">           
+        <img src="./img/icons/system-solid-47-chat.gif" alt="">
+    </button>
+    <!-- btnChat  -->
+
+    <dialog class="modalmensagem">
+       
+        <div class="chat-box" id="chatBox">
+            
+            <button class="closemsm">
+                <img src="./img/icons/close.svg" style="width: 130%;" alt="">
+            </button>
+            <div class="info">
+                <div class="infad">
+                    <img src="./img/icons/IMG-20231024-WA0003_093254.jpg" alt="">
+                    <h2>Zilicias Decor</h2>  
+                </div>
+                <h3>ChatbotZ</h3>
+                <p>Normalmente responde em 8 minutos</p>
+            </div>
+			<div class="messages">
+			
+			  <div class="message sent">
+			  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod purus ut odio 
+			  convallis, ac bibendum ligula aliquet. Suspendisse potenti. Vivamus volutpat metus vel 
+			  tortor aliquet, ac varius tortor lacinia. Proin blandit, neque nec interdum venenatis, 
+			  velit nisl dictum nisi, eu semper lorem urna vel lorem.
+			  </div>
+			  
+			  <div class="message received">
+			  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod purus ut odio 
+			  convallis, ac bibendum ligula aliquet.
+			  </div>
+			  
+			  <div class="message sent">
+			  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod purus ut odio 
+			  convallis, ac bibendum ligula aliquet. Suspendisse potenti. Vivamus volutpat metus vel 
+			  tortor aliquet, ac varius tortor lacinia. Proin blandit, neque nec interdum venenatis, 
+			  velit nisl dictum nisi, eu semper lorem urna vel lorem.
+			  </div>
+			  
+			  <div class="message received">
+			    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod purus ut odio 
+			    convallis, ac bibendum ligula aliquet.
+			  </div>
+		</div>
+			    <div class="form-container">
+                    <form id="messageForm">
+				        <input type="text" id="messageInput" placeholder="Digite sua mensagem...">
+				        <button class="btnenviar" type="submit"><img src="./img/icons/send.svg" style="width: 30px;" alt=""></button>
+			        </form>
+                </div> 
+			
+			
+		</div>
+    </dialog>
+
+
+    <!-- Chat  -->
+
+    <!-- btncarrinho  -->
+    <button class="carrinho">
+        
+        <img src="./img/icons/wired-outline-146-trolley.gif" alt="">
+        <span class="cartnotif">0</span>
+    
+    </button>
+     <!-- btncarrinho  -->
+
+
+
+
+</main> 
+
+    <fooer class="by">
+        <p>GMelo@Devenloper - 2024</p>
+    </footer>
+
+
+    <script src="mobile-navbar.js"></script> 
+    <script src="mobilemodal.js"></script>
+  
+</body>
+</html>

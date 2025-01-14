@@ -1,0 +1,135 @@
+
+/* infinitslider */
+.infinitslider {
+    display: flex;
+    align-items: center;
+    height: 100%;   
+}
+
+.infinitsliderroll{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+}
+
+.slide-list {
+    display: flex;
+    gap: 30px;
+}
+
+.slide-item {
+    cursor: grab;
+    flex-shrink: 0;
+    padding: 10px 0 5px 0;
+    width: 30vw;
+}
+
+
+.slide-content {
+    border-radius: 10px;
+    position: relative;
+}
+
+
+.slide-image {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.slide-description {
+    border-radius: 10px;
+    background: linear-gradient(to top, #535353, transparent);
+    color: #fff;
+    position: absolute;
+    padding: 30px;
+    bottom: 0;
+    width: 100%;
+}
+
+.slide-description h3 {
+    font-family: system-ui, Helvetica, arial, sans-serif;
+    font-size: 38px;
+    position: relative;
+    top: 16px;
+    margin-bottom: 20px;
+}
+
+.slide-description p {
+ font-family: system-ui, Helvetica, arial, sans-serif;
+    font-size: 14px;
+}
+
+.slide-nav-button {
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-size: 36px;
+    position: absolute;
+    z-index: 0;
+    border: none;
+    
+}
+
+.slide-nav-previous {
+    left: 20px;
+    width: 0;
+    height: 0;
+    }
+
+.slide-nav-next {
+    right: 20px;
+    width: 0;
+    height: 0;
+}
+.slide-control-button{
+    border: none;
+    color: #fff;
+    width: 0;
+    opacity: 0.15;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .slide-description {
+        padding: 10px;
+    }
+    
+    .slide-description h3 {
+        font-size: 0;
+        top: 0;
+    }
+
+    .slide-description p {
+        display: none;
+    }
+
+    .slide-nav-button {
+        margin-top: -20px;
+        font-size: 28px;
+    }
+    
+    .slide-nav-previous {
+        left: 10px;
+    }
+    
+    .slide-nav-next {
+        right: 10px;
+    }
+
+    .slide-controls {
+        margin: 15px auto 0;
+    }
+
+    .slide-control-button {
+        font-size: 14px;
+    }
+    .slide-description {
+        border-radius: 10px;
+        background: none;
+    }
+}
